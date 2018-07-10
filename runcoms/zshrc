@@ -11,3 +11,10 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+export PREZTO_SETTINGS=${ZDOTDIR:-$HOME}/.zprezto/settings/
+
+if [ -d "$PREZTO_SETTINGS" ]; then
+  if [ "$(ls -A $PREZTO_SETTINGS)" ]; then
+    for config_file ($PREZTO_SETTINGS*.zsh) source $config_file
+  fi
+fi
