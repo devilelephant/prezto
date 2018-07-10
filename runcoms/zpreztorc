@@ -37,11 +37,11 @@ zstyle ':prezto:load' pmodule \
   'completion' \
   'fasd' \
   'osx' \
-  'syntax-highlighting' \
   'history-substring-search' \
   'ssh' \
-  'git' \
-  'prompt'
+  'prompt' \
+  'syntax-highlighting' \
+  'git' 
 
 #
 # Autosuggestions
