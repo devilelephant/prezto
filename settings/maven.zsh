@@ -8,11 +8,11 @@ alias mvn-repoman-mci='mvn-repoman clean install dependency:sources'
 
 export FLASH_DEBUG_HOME=/Applications/Flash\ Player\ Debugger.app/Contents/MacOS/Flash\ Player\ Debugger
 
-function mvnflex {
-  mvn2 $1 $2 $3 $4 $5 $6 $7 $8 $9 -DflashPlayer.command=$FLASH_DEBUG_HOME
-}
+#function mvnflex {
+#  mvn2 $1 $2 $3 $4 $5 $6 $7 $8 $9 -DflashPlayer.command=$FLASH_DEBUG_HOME
+#}
 
-function test {
+function mvn-test {
   mvn test
   mvim `grep -l 'FAILURE' ./target/surefire-reports/*.txt`
 }
