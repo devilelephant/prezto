@@ -43,3 +43,6 @@ alias -g L="| less"
 alias -g N="| /dev/null"
 alias -g S='| sort'
 alias -g G='| grep' # now you can do: ls foo G something
+
+alias youtube_mp3="youtube-dl -x --audio-format mp3 --prefer-ffmpeg $1"
+alias youtube_wav="youtube-dl -x --audio-format wav --prefer-ffmpeg $1"
