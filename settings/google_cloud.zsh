@@ -4,8 +4,8 @@
 # added to /etc/paths.d
 
 # The next line enables bash completion for gcloud.
-source '/Users/georgecoller/Applications/google-cloud-sdk/completion.zsh.inc'
+#source '/Users/georgecoller/Applications/google-cloud-sdk/completion.zsh.inc'
 
 
-alias bq-list-jobs="bq ls -j -n 1000"
+#alias bq-list-jobs="bq ls -j -n 1000"
 

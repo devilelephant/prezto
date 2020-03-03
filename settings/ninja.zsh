@@ -1,1 +1,0 @@
-/Users/georgecoller/Workspace/bitbucket/dev-helpers/ninja-sa/ninja_cloud_sa.sh
