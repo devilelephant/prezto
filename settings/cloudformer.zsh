@@ -1,4 +1,4 @@
-export CLOUDFORMER_SOURCE_PATH=/Workspace/system/cloudformer
+export CLOUDFORMER_SOURCE_PATH=~/Workspace/system/cloudformer
 
 #Set font weight variables for convenience
 export bold=`tput bold`

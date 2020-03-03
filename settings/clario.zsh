@@ -2,6 +2,8 @@
 #
 export CLARIO_HOME=~/Downloads/data
 
+alias gcloud_pull_queue=gcloud --project prod-6210-36-reports pubsub subscriptions pull --auto-ack projects/prod-6210-36-reports/subscriptions/SUBSCRIPTION
+
 alias s3copyexample='aws s3 cp s3://dev-clario/10450/projects/workbench/8909/data s3://qa-clario/5023/projects/workbench/255/data --dryrun --recursive'
 alias s3preprod='aws s3'
 function s3prod { s3cmd --config ~/.s3cfg_prod --force $1 s3://prod-clario/$2 $3 $4 }
