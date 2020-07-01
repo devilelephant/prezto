@@ -60,3 +60,4 @@ _bash_complete() {
 }
 
 complete -C aws_completer aws
+complete -C aws_completer awslocal

@@ -46,5 +46,10 @@ alias -g .....='../../../..'
 # alias -g A='| ack'
 alias wcl='wc -l'
 
+#Gradle
+alias gr='./gradlew'
+alias grcb='./gradlew clean build'
+alias grxt='./gradlew clean build -x test'
+
 alias youtube_mp3="youtube-dl -x --audio-format mp3 --prefer-ffmpeg $1"
 alias youtube_wav="youtube-dl -x --audio-format wav --prefer-ffmpeg $1"
