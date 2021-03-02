@@ -15,7 +15,7 @@ export AWS_DEFAULT_REGION=us-east-1
 export AWS_PROFILE=development-nebula
 
 #okta password pasted here, sigh
-alias aws-login="echo 'copied okta pwd to clipboard'; echo pFL9fG-rupFKt-ghJsut | tr -d '\n' | pbcopy; nebula-utils"
+alias aws-login="echo 'copied okta pwd to clipboard'; echo ZHfn-PVRW-8r4f-qSH6P | tr -d '\n' | pbcopy; nebula-utils --session-duration 8"
 alias awssbx="aws --profile sandbox-nebula --region us-east-1"
 alias awsdev="aws --profile development-nebula --region us-east-1"
 alias awsqat="aws --profile qa-nebula --region us-east-1"
